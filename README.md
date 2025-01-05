@@ -5,7 +5,7 @@ This project explores and compares multiple techniques to address class imbalanc
 - **Undersampling**
 - **Oversampling**
 - **SMOTE (Synthetic Minority Oversampling Technique)**
-- **SMOTE-K (SMOTE with K-means)**
+- **Ensemble (combined with undersampling)**
 
 The goal is to evaluate the impact of these methods on model performance and identify the best-performing approach.
 
@@ -20,10 +20,8 @@ The goal is to evaluate the impact of these methods on model performance and ide
 3. **SMOTE**:  
    - **Minority Class F1 Score**: Increased significantly from **0.57 to 0.81**.
    - **Overall Accuracy**: Improved from **0.78 to 0.80**.
-4. **SMOTE-K**: Balanced performance but slightly lower F1 score compared to SMOTE.
+4. **Ensemble with Undersampling**: Combined undersampling with Ensemble methods, achieving balanced performance and enhanced model stability.
 
 ### **Conclusion**
 Among all methods, **SMOTE performs the best**, significantly enhancing the minority class F1 score and overall model accuracy.
-
-
 
